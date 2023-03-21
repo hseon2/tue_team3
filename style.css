@@ -1,0 +1,36 @@
+.section-main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 735;
+}
+
+.section-image-content {
+  display: flex;
+  justify-content: center;
+}
+
+.section-text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section4-image {
+  width: 400px;
+}
+
+.section-title {
+}
+
+.section-text {
+  font-size: 14px;
+  color: #212529;
+}
+
+.section-button {
+  background-color: #f1f3f5;
+  color: #212529;
+  border: none;
+  border-radius: ;
+}
