@@ -4,6 +4,12 @@
   outline: none;
 }
 
+.section-all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .section-main-content {
   display: flex;
   flex-direction: row;
