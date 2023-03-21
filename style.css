@@ -10,11 +10,31 @@
   align-items: center;
 }
 
-.section-main-content {
+#section1-color {
+  background-color: #fbf7f2;
+}
+
+.section1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 735;
+  width: 100%;
+}
+
+.section-top-content {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1024px;
+  gap: 180px;
+}
+
+.section-main-content {
+  display: flex;
+  padding-top: 60px;
+  flex-direction: row;
+  justify-content: center;
   width: 1024px;
   gap: 180px;
 }
@@ -33,8 +53,19 @@
   flex-shrink: 0;
 }
 
+.section-top-image {
+  width: 680px;
+}
+
 .section-image {
   width: 450px;
+}
+
+.section-top-title {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 42px;
+  line-height: 135%;
 }
 
 .section-title {
@@ -83,6 +114,40 @@
   border-radius: 6px;
   font-weight: bold;
   font-size: 15px;
+}
+
+#section3-color {
+  background-color: #e6f3e6;
+}
+
+.section3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.section3-table {
+  display: flex;
+  flex-direction: row;
+}
+
+.section3-table-icon {
+  margin-bottom: 10px;
+}
+
+.section3-table-comp {
+  width: 150px;
+}
+
+.section3-table-title {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.section3-table-text {
+  font-size: 12px;
 }
 
 .section4-button {
@@ -166,11 +231,84 @@
   border-radius: 5px;
 }
 
-.section6 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  height: 80px;
-  width: 100%;
-  margin: 4rem auto;
+body {
+    margin: 0;
+
+
+}
+.section5-main-content{
+    padding: 100px;
+}
+.cards-content{
+    padding: 0 140px;
+    padding-top: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    margin: 0 auto;
+}
+
+.section5-topcenter-text{
+
+    font-size: 600px;
+    line-height: 1.35;
+}
+
+.section5{
+    justify-content: center;
+    background-color: #F8F9FA;
+    width: 100%;
+
+}
+
+.cards-content{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section5-topcenter-text{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+.cardimage-style{
+    width: 200px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    background-color: #F8F9FA;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+}
+.card-title{
+    line-height: 25px;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card-cost{
+    line-height: 25px;
+    font-weight: bold;
+}
+.count-text{
+    line-height: 25px;
+    font-size: 13px;
+    opacity: 0.28;
+}
+.card-location{
+    line-height: 25px;
+    font-size: 14px;
+}
+.etc{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-weight: bold;
 }
