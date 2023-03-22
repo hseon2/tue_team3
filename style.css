@@ -69,6 +69,7 @@
   margin-top: 0;
   margin-bottom: 24px;
   font-size: 42px;
+  color: #212529;
   line-height: 135%;
 }
 
@@ -325,5 +326,78 @@ body {
   display: flex;
   justify-content: center;
   text-decoration: underline;
+  font-weight: bold;
+}
+
+.footer-center {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  border-top: solid 0.5px #dddddd;
+  border-bottom: solid 0.5px #dddddd;
+}
+
+.footer-center-left {
+  padding-right: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-center-right {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+}
+
+.menu-table-col {
+  width: 150px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.menu-table-row {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  height: 50px;
+  font-size: 14px;
+  color: #212529;
+  text-decoration: none;
+}
+
+.footer-button {
+  background-color: #f3f3f3;
+  width: 110px;
+  border: none;
+  width: 150px;
+  height: 45px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.apple {
+  width: 12%;
+}
+
+.google {
+  width: 12%;
+}
+
+.footer-app-text {
+  font-size: 14px;
+  color: #212529;
+  padding-bottom: 20px;
   font-weight: bold;
 }
