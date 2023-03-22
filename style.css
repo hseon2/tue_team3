@@ -359,6 +359,7 @@ body {
 
 .footer-center-left {
   padding-right: 50px;
+  padding-left: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -373,7 +374,7 @@ body {
 }
 
 .menu-table-col {
-  width: 150px;
+  width: 140px;
   padding-left: 20px;
   display: flex;
   flex-direction: column;
@@ -501,7 +502,7 @@ a:hover {
   width: 410px;
   height: 200px;
   margin: 0;
-  padding-right: 100px;
+  padding-right: 50px;
 }
 .content-line {
   padding-top: 5px;
