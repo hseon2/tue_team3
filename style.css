@@ -253,14 +253,18 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap;
 
   margin: 0 auto;
+  flex-shrink: 0;
 }
 
 .section5-topcenter-text {
-  font-size: 600px;
+  font-size: 35px;
   line-height: 1.35;
+  padding-top: 120px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 .section5 {
@@ -271,20 +275,24 @@ body {
 
 .cards-content {
   padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
 }
 
-.section5-topcenter-text {
-  display: flex;
-  justify-content: center;
-  font-size: 2rem;
+.card {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 200px;
 }
+
 .cardimage-style {
   width: 200px;
   height: auto;
-  position: relative;
+
   overflow: hidden;
   border-radius: 12px;
   background-color: #f8f9fa;
@@ -292,6 +300,8 @@ body {
   box-sizing: border-box;
 }
 .card-title {
+  padding-top: 10px;
+  padding-bottom: 5px;
   line-height: 25px;
   max-width: 200px;
   overflow: hidden;
