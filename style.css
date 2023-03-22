@@ -107,6 +107,10 @@
   font-size: 15px;
 }
 
+.section2-button1:hover {
+  background-color: #ebeaea;
+}
+
 .section2-button2 {
   padding-top: 14.5px;
   padding-bottom: 14.5px;
@@ -119,6 +123,10 @@
   border-radius: 6px;
   font-weight: bold;
   font-size: 15px;
+}
+
+.section2-button2:hover {
+  background-color: #ebeaea;
 }
 
 #section3-color {
@@ -165,6 +173,10 @@
   border-radius: 6px;
   font-weight: bold;
   font-size: 15px;
+}
+
+.section4-button:hover {
+  background-color: #ebeaea;
 }
 
 .header {
@@ -239,6 +251,11 @@
   font-size: 16px;
   margin-left: 10px;
   border-radius: 5px;
+}
+
+.chat-button:hover {
+  background-color: #f8f8f8;
+  color: #454545;
 }
 
 body {
@@ -387,6 +404,10 @@ body {
   margin-right: 10px;
 }
 
+.footer-button:hover {
+  color: #6d6d6d;
+}
+
 .apple {
   width: 12%;
 }
@@ -429,7 +450,7 @@ body {
   display: flex;
 }
 
-.footer2{
+.footer2 {
   padding: 0 100px;
   border-top: 1px solid lightgray;
   display: flex;
@@ -438,38 +459,33 @@ body {
   padding-top: 40px;
 }
 
-.icon-image{
+.icon-image {
   padding-right: 20px;
   color: black;
   opacity: 0.4;
   justify-content: center;
   filter: grayscale(90%);
   width: 24px;
-  height: auto
+  height: auto;
 }
 
-.icons{
+.icons {
   display: flex;
   align-items: center;
-
-  
-
 }
 
-.name-title{
+.name-title {
   font-weight: bold;
 }
 
-.inquiry-link{
+.inquiry-link {
   padding-top: 20px;
   line-height: 20px;
-
-  
 }
-a:hover{
+a:hover {
   text-decoration: underline;
 }
-.etc-link{
+.etc-link {
   padding-top: 20px;
   padding-bottom: 90px;
   opacity: 0.6;
@@ -478,20 +494,19 @@ a:hover{
   outline: 0;
   white-space: nowrap;
 }
-.content{
+.content {
   line-height: 20px;
   font-size: 13px;
   opacity: 0.5;
-  width:410px;
-  height:200px;
+  width: 410px;
+  height: 200px;
   margin: 0;
   padding-right: 0;
-
 }
-.content-line{
+.content-line {
   padding-top: 5px;
 }
-.etc-linkstyle{
+.etc-linkstyle {
   opacity: 0.6;
   font-weight: 700;
   text-decoration: none;
@@ -500,28 +515,24 @@ a:hover{
   color: black;
   font-size: 13px;
   padding-right: 5px;
-
 }
-#personal-info{
+#personal-info {
   opacity: 0.95;
 }
 
-.nation{
+.nation {
   background-color: white;
   color: gray;
   padding-left: 3px;
   border: none;
   text-indent: 1px;
   cursor: pointer;
-
 }
-.globe-image{
+.globe-image {
   width: 16px;
   height: auto;
   opacity: 0.6;
-
 }
-.selection{
+.selection {
   display: flex;
-
 }
