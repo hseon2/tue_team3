@@ -454,7 +454,7 @@ body {
   padding: 0 100px;
   border-top: 1px solid lightgray;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
   padding-top: 40px;
 }
@@ -501,7 +501,7 @@ a:hover {
   width: 410px;
   height: 200px;
   margin: 0;
-  padding-right: 0;
+  padding-right: 100px;
 }
 .content-line {
   padding-top: 5px;
