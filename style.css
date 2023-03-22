@@ -428,3 +428,100 @@ body {
   color: #212529;
   display: flex;
 }
+
+.footer2{
+  padding: 0 100px;
+  border-top: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 40px;
+}
+
+.icon-image{
+  padding-right: 20px;
+  color: black;
+  opacity: 0.4;
+  justify-content: center;
+  filter: grayscale(90%);
+  width: 24px;
+  height: auto
+}
+
+.icons{
+  display: flex;
+  align-items: center;
+
+  
+
+}
+
+.name-title{
+  font-weight: bold;
+}
+
+.inquiry-link{
+  padding-top: 20px;
+  line-height: 20px;
+
+  
+}
+a:hover{
+  text-decoration: underline;
+}
+.etc-link{
+  padding-top: 20px;
+  padding-bottom: 90px;
+  opacity: 0.6;
+  font-weight: 700;
+  text-decoration: none;
+  outline: 0;
+  white-space: nowrap;
+}
+.content{
+  line-height: 20px;
+  font-size: 13px;
+  opacity: 0.5;
+  width:410px;
+  height:200px;
+  margin: 0;
+  padding-right: 0;
+
+}
+.content-line{
+  padding-top: 5px;
+}
+.etc-linkstyle{
+  opacity: 0.6;
+  font-weight: 700;
+  text-decoration: none;
+  outline: 0;
+  white-space: nowrap;
+  color: black;
+  font-size: 13px;
+  padding-right: 5px;
+
+}
+#personal-info{
+  opacity: 0.95;
+}
+
+.nation{
+  background-color: white;
+  color: gray;
+  padding-left: 3px;
+  border: none;
+  text-indent: 1px;
+  cursor: pointer;
+
+}
+.globe-image{
+  width: 16px;
+  height: auto;
+  opacity: 0.6;
+
+}
+.selection{
+  display: flex;
+
+}
