@@ -340,6 +340,7 @@ body {
 }
 .etc {
   padding-top: 50px;
+  padding-bottom: 200px;
   display: flex;
   justify-content: center;
   text-decoration: underline;
@@ -463,7 +464,7 @@ body {
 
 .footer3 {
   padding: 0 100px;
-  border-top: 1px solid lightgray;
+  border-top: 0.5px solid #dddddd;
   display: flex;
   justify-content: center;
   align-items: flex-start;
