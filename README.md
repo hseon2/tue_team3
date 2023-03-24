@@ -1,14 +1,13 @@
-# tue_team3
- 담당 운영진 : 소연경, 노현호
+담당 운영진 : 소연경, 노현호
  
- 팀원 이름 : 김남희, 김세현, 이희선
+팀원 이름 : 김남희, 김세현, 이희선
  
- 맡은 기능
+맡은 기능
  - 김남희 : header, section6
  - 김세현 : section5, 하단 footer
  - 이희선 : section1~4, 상단 footer
 
-cloning page
+Cloning page
 - header, section 1
 <img width="1424" alt="image" src="https://user-images.githubusercontent.com/127179023/227500276-8d5b1b4b-e17e-4813-a3fb-280e9b4b068a.png">
 
