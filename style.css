@@ -222,6 +222,10 @@
   padding: 0 40 0 0;
 }
 
+.main-page:hover {
+  text-decoration: none;
+}
+
 .nearby-stores,
 .jobs,
 .realty,
@@ -230,6 +234,14 @@
   color: #4d5159;
   font-size: 18px;
   margin-right: 30px;
+}
+
+.nearby-stores:hover,
+.jobs:hover,
+.realty:hover,
+.car:hover {
+  color: #bdbdbd;
+  text-decoration: none;
 }
 
 .search-input {
